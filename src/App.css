@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+/* NAVBAR */
+.navbar {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links span {
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* MAIN */
+.container {
+  padding: 30px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mt {
+  margin-top: 30px;
+}
+
+/* BUTTON */
+.btn-blue {
+  margin-top: 15px;
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* GANTT */
+.gantt {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.gantt-box {
+  background: #dbeafe;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+  min-width: 60px;
+}
