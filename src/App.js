@@ -1,3 +1,5 @@
+// Minor improvement for final submission
+
 import React, { useState } from "react";
 import {
   BarChart,
